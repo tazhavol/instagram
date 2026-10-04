@@ -1,0 +1,6 @@
+{
+  "rewrites": [
+    { "source": "/api-ig/:path*", "destination": "/api/proxy?__t=api&__p=:path*" },
+    { "source": "/graph-ig/:path*", "destination": "/api/proxy?__t=graph&__p=:path*" }
+  ]
+}
